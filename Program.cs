@@ -83,6 +83,7 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(Options =>{
 var app = builder.Build();
 
 // ทำการอัพเดทแล้ว
+//อีกรอบๆ
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
